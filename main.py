@@ -17,6 +17,7 @@ nltk.download('omw-1.4')
 
 from single_text_processor import preprocess_text
 
+
 abc_news = read_csv("./abcnews_sample.csv")
 bbc_news = read_csv("./bbc_news.csv")
 

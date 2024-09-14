@@ -1,0 +1,194 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
+                "totalResults": "233000",
+                "searchTerms": "Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "5000c0bd58ef54a2c"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
+                "totalResults": "233000",
+                "searchTerms": "Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "5000c0bd58ef54a2c"
+            }
+        ]
+    },
+    "context": {
+        "title": "news_searcher"
+    },
+    "searchInformation": {
+        "searchTime": 0.618114,
+        "formattedSearchTime": "0.62",
+        "totalResults": "233000",
+        "formattedTotalResults": "233,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Winter of Discontent - Wikipedia",
+            "htmlTitle": "Winter <b>of</b> Discontent - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
+            "displayLink": "en.wikipedia.org",
+            "snippet": "A strike by workers at Ford in late 1978 was settled with a pay increase of 17 per cent, well above the 5 per cent limit the government was holding its own...",
+            "htmlSnippet": "A strike by <b>workers</b> at Ford <b>in</b> late 1978 was settled with a <b>pay</b> increase <b>of</b> 17 per cent, well <b>above</b> the 5 per cent limit the <b>government</b> was holding its own...",
+            "formattedUrl": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
+            "htmlFormattedUrl": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "referrer": "origin",
+                        "og:image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/James_Callaghan.JPG",
+                        "theme-color": "#eaecf0",
+                        "og:image:width": "1200",
+                        "og:type": "website",
+                        "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+                        "og:title": "Winter of Discontent - Wikipedia",
+                        "og:image:height": "1540",
+                        "format-detection": "telephone=no"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Labour Party publish update to its proposals for employment law ...",
+            "htmlTitle": "Labour Party publish update to its proposals for employment law ...",
+            "link": "https://www.nortonrosefulbright.com/en/knowledge/publications/f2e10e81/labour-party-publish-update-to-its-proposals-for-employment-law-what-new",
+            "displayLink": "www.nortonrosefulbright.com",
+            "snippet": "Voices at Work – Changes to trade union legislation. Equality at work; Rights at work; Conclusion. Zero hour workers. The Labour Party has confirmed in the Plan...",
+            "htmlSnippet": "Voices at <b>Work</b> – <b>Changes</b> to trade <b>union</b> legislation. Equality at <b>work</b>; Rights at <b>work</b>; Conclusion. Zero hour <b>workers</b>. The Labour Party has confirmed <b>in</b> the Plan...",
+            "formattedUrl": "https://www.nortonrosefulbright.com/.../publications/.../labour-party-publis...",
+            "htmlFormattedUrl": "https://www.nortonrosefulbright.com/.../<b>public</b>ations/.../labour-party-publis...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ83xbvxFZUxbT7QeYBgdnDISEIdf4geyZQ_bgRC1BcoA5UO8LxmgoN0O_T&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.nortonrosefulbright.com/-/media/images/nrf/hero/employment-uk-election.jpg?revision=e04964e9-bad3-41c7-9f1e-7d23974f4ecf&revision=5250223852547387904",
+                        "og:type": "article",
+                        "og:title": "Labour Party publish update to its proposals for employment law: What’s new?",
+                        "dc.format": "text/html",
+                        "dc.date.created": "06/12/2024 08:44:32",
+                        "og:description": "On May 24 the Labour Party published an update to its proposals on employment law in “Labour’s Plan to Make Work Pay: Delivering A New Deal for Working People” (the Plan). Our review of the proposals included in the Green Paper which was initially published in 2021 can be found here. Should they win the election, the Labour Party has stated that it will introduce an Employment Bill within the first 100 days of being in power which will cover many of these issues.",
+                        "nrf-mac": "NRFPRDCD2",
+                        "referrer": "no-referrer-when-downgrade",
+                        "dc.source": "https://www.nortonrosefulbright.com/en/knowledge/publications/f2e10e81/labour-party-publish-update-to-its-proposals-for-employment-law-what-new",
+                        "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+                        "dc.title": "Labour Party publish update to its proposals for employment law: What’s new?",
+                        "dc.date.modified": "06/21/2024 11:50:20",
+                        "dc.language": "en",
+                        "og:url": "https://www.nortonrosefulbright.com/en/knowledge/publications/f2e10e81/labour-party-publish-update-to-its-proposals-for-employment-law-what-new"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.nortonrosefulbright.com/-/media/images/nrf/hero/employment-uk-election.jpg?revision=e04964e9-bad3-41c7-9f1e-7d23974f4ecf&revision=5250223852547387904"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "There is an alternative: Economic policies and labour strategies ...",
+            "htmlTitle": "There is an alternative: <b>Economic</b> policies and labour strategies ...",
+            "link": "https://www.ilo.org/media/348996/download",
+            "displayLink": "www.ilo.org",
+            "snippet": "1 Government and the unions have failed to reach agreement on who is an essential worker. Page 22. The struggle against pension reform in France. Philippe Légé.",
+            "htmlSnippet": "1 <b>Government</b> and the <b>unions</b> have failed to reach agreement on who is an essential <b>worker</b>. Page 22. The struggle against pension <b>reform in</b> France. Philippe Légé.",
+            "formattedUrl": "https://www.ilo.org/media/348996/download",
+            "htmlFormattedUrl": "https://www.ilo.org/media/348996/download",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXltm6oCiXuIDU7Y6H00Deivu4AqbPiJ8_8DB5Q_yLJVRuKY0iIyA2Ts&s",
+                        "width": "183",
+                        "height": "275"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "moddate": "D:20110708155748+02'00'",
+                        "creator": "QuarkXPress(R) 8.5",
+                        "xpressprivate": "%%DocumentCustomColors: (PANTONE 287 C) %%DocumentProcessColors: Cyan Magenta Yellow Black %%QRKLabCustomColor: .215 .542 .271 (PANTONE 287 C) %%RGBCustomColor: 0 .18 .554 (PANTONE 287 C) %%EndComments",
+                        "creationdate": "D:20110512151509Z",
+                        "producer": "QuarkXPress(R) 8.5",
+                        "title": "Layout 1"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "x-raw-image:///b111c4fb75ffb441562f63d50fe998c7fb5f368b692b7817106d01080cc49d3a"
+                    }
+                ]
+            },
+            "mime": "application/pdf",
+            "fileFormat": "PDF/Adobe Acrobat"
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Brexit: understanding the socio-economic origins and consequences",
+            "htmlTitle": "Brexit: understanding the socio-<b>economic</b> origins and consequences",
+            "link": "https://academic.oup.com/ser/article/14/4/807/2896901",
+            "displayLink": "academic.oup.com",
+            "snippet": "Meanwhile, the political dynamics of the Brexit vote were also shaped by the fractured nature of UK business elites (Morgan), divisions between locals and...",
+            "htmlSnippet": "Meanwhile, the political dynamics <b>of</b> the Brexit <b>vote</b> were also shaped by the fractured nature <b>of UK</b> business elites (Morgan), divisions between locals and...",
+            "formattedUrl": "https://academic.oup.com/ser/article/14/4/807/2896901",
+            "htmlFormattedUrl": "https://academic.oup.com/ser/article/14/4/807/2896901",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "msapplication-config": "//oup.silverchair-cdn.com/UI/app/img/v-638576256025097080/browserconfig.xml",
+                        "og:image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ser/Issue/14/4/0/m_soceco_14_4cover.jpeg?Expires=1786969314&Signature=OOi7GUZRH38PvnpYoWK00MQE7g4eMJSKTVP24D7MyU5KrqKPxiFY068pb9LfjZpDPYmrm6db7KzsfLW5zwLBbz1RJhImy1EPpIOvwJiFtHe3bt27IPNiPXnf9wzACpP61dRvRMBTsj7Yt0w97LNE-1PwM~52yV6tTu7dZUYusELlISUVhWGL2arVv2GmlpmNHs8A02NrkAHihqheac2v7Bdl-tBBFzmqfTidE~o8Fd1Ig47UpSb7yGedDxZx1SqDdP5mdkPpPGfxay4DzffVBL8JadzIdTe3sY-DuJ15OAeDnrqfw1~O-lJ8uu1A2r8FvCgnF0XhW6PtAtyFnZyfjw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                        "citation_publication_date": "2016/10/01",
+                        "theme-color": "#002f65",
+                        "twitter:card": "summary_large_image",
+                        "citation_title": "Brexit: understanding the socio-economic origins and consequences",
+                        "og:site_name": "OUP Academic",
+                        "citation_reference": "citation_author=Ashcroft  M.; citation_author=Culwick  K.; citation_publisher=Biteback Publishing, London;  citation_title=Well You Did Ask… Why the UK Voted to Leave the EU;  citation_year=2016;",
+                        "citation_publisher": "Oxford Academic",
+                        "citation_journal_title": "Socio-Economic Review",
+                        "og:description": "The unprecedented geopolitical shift resulting from Brexit reflects deep socio-economic fault lines within and beyond the UK. In many ways foreshadowing th",
+                        "og:image:secure_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ser/Issue/14/4/0/m_soceco_14_4cover.jpeg?Expires=1786969314&Signature=OOi7GUZRH38PvnpYoWK00MQE7g4eMJSKTVP24D7MyU5KrqKPxiFY068pb9LfjZpDPYmrm6db7KzsfLW5zwLBbz1RJhImy1EPpIOvwJiFtHe3bt27IPNiPXnf9wzACpP61dRvRMBTsj7Yt0w97LNE-1PwM~52yV6tTu7dZUYusELlISUVhWGL2arVv2GmlpmNHs8A02NrkAHihqheac2v7Bdl-tBBFzmqfTidE~o8Fd1Ig47UpSb7yGedDxZx1SqDdP5mdkPpPGfxay4DzffVBL8JadzIdTe3sY-DuJ15OAeDnrqfw1~O-lJ8uu1A2r8FvCgnF0XhW6PtAtyFnZyfjw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                        "citation_issn": "1475-1461",
+                        "citation_lastpage": "854",
+                        "og:type": "article",
+                        "og:image:alt": "Issue Cover",
+                        "og:image:url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ser/Issue/14/4/0/m_soceco_14_4cover.jpeg?Expires=1786969314&Signature=OOi7GUZRH38PvnpYoWK00MQE7g4eMJSKTVP24D7MyU5KrqKPxiFY068pb9LfjZpDPYmrm6db7KzsfLW5zwLBbz1RJhImy1EPpIOvwJiFtHe3bt27IPNiPXnf9wzACpP61dRvRMBTsj7Yt0w97LNE-1PwM~52yV6tTu7dZUYusELlISUVhWGL2arVv2GmlpmNHs8A02NrkAHihqheac2v7Bdl-tBBFzmqfTidE~o8Fd1Ig47UpSb7yGedDxZx1SqDdP5mdkPpPGfxay4DzffVBL8JadzIdTe3sY-DuJ15OAeDnrqfw1~O-lJ8uu1A2r8FvCgnF0XhW6PtAtyFnZyfjw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                        "citation_journal_abbrev": "Socioecon Rev",
+                        "og:title": "Brexit: understanding the socio-economic origins and consequences",
+                        "citation_author": "O'Reilly, Jacqueline",
+                        "citation_issue": "4",
+                        "citation_firstpage": "807",
+                        "viewport": "width=device-width, initial-scale=1, maximum-scale=10",
+                        "citation_doi": "10.1093/ser/mww043",
+                        "citation_volume": "14",
+                        "og:url": "https://dx.doi.org/10.1093/ser/mww043",
+                        "format-detection": "telephone=no"
+                    }
+                ]}
+
+                }]}
