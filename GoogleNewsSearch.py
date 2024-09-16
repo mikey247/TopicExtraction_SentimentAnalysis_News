@@ -14,12 +14,13 @@ class GoogleNewsSearch:
         self.SEARCH_ENGINE_ID = SEARCH_ENGINE_ID
 
     def set_query(self, query):
-        self.query = query
+        self.query = "News articles for " + query
         # turn query into a proper url string
         query = query.replace(' ', '+')
         query = query.replace('"', '')
         self.search_url = "https://www.googleapis.com/customsearch/v1?key="+self.API_KEY+"&cx="+self.SEARCH_ENGINE_ID+"&q="+query
         print("URL IS NOW", self.search_url) 
+        print("Query is now", self.query)
 
     def get_search_results(self):
         response = requests.get(self.search_url)

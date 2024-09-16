@@ -7,9 +7,9 @@
     "queries": {
         "request": [
             {
-                "title": "Google Custom Search - Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
-                "totalResults": "233000",
-                "searchTerms": "Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
+                "title": "Google Custom Search - Smoking in English Pubs: UK Government Proposal on Outdoor Tobacco Use, Health Impacts, and Hospitality Industry Plans",
+                "totalResults": "2610000",
+                "searchTerms": "Smoking in English Pubs: UK Government Proposal on Outdoor Tobacco Use, Health Impacts, and Hospitality Industry Plans",
                 "count": 10,
                 "startIndex": 1,
                 "inputEncoding": "utf8",
@@ -20,9 +20,9 @@
         ],
         "nextPage": [
             {
-                "title": "Google Custom Search - Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
-                "totalResults": "233000",
-                "searchTerms": "Union demands for higher public worker pay and tax reforms during TUC election discussions on the UK economy and worker wealth investment.",
+                "title": "Google Custom Search - Smoking in English Pubs: UK Government Proposal on Outdoor Tobacco Use, Health Impacts, and Hospitality Industry Plans",
+                "totalResults": "2610000",
+                "searchTerms": "Smoking in English Pubs: UK Government Proposal on Outdoor Tobacco Use, Health Impacts, and Hospitality Industry Plans",
                 "count": 10,
                 "startIndex": 11,
                 "inputEncoding": "utf8",
@@ -36,159 +36,196 @@
         "title": "news_searcher"
     },
     "searchInformation": {
-        "searchTime": 0.618114,
-        "formattedSearchTime": "0.62",
-        "totalResults": "233000",
-        "formattedTotalResults": "233,000"
+        "searchTime": 0.696745,
+        "formattedSearchTime": "0.70",
+        "totalResults": "2610000",
+        "formattedTotalResults": "2,610,000"
     },
     "items": [
         {
             "kind": "customsearch#result",
-            "title": "Winter of Discontent - Wikipedia",
-            "htmlTitle": "Winter <b>of</b> Discontent - Wikipedia",
-            "link": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
-            "displayLink": "en.wikipedia.org",
-            "snippet": "A strike by workers at Ford in late 1978 was settled with a pay increase of 17 per cent, well above the 5 per cent limit the government was holding its own...",
-            "htmlSnippet": "A strike by <b>workers</b> at Ford <b>in</b> late 1978 was settled with a <b>pay</b> increase <b>of</b> 17 per cent, well <b>above</b> the 5 per cent limit the <b>government</b> was holding its own...",
-            "formattedUrl": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
-            "htmlFormattedUrl": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
-            "pagemap": {
-                "metatags": [
-                    {
-                        "referrer": "origin",
-                        "og:image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/James_Callaghan.JPG",
-                        "theme-color": "#eaecf0",
-                        "og:image:width": "1200",
-                        "og:type": "website",
-                        "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-                        "og:title": "Winter of Discontent - Wikipedia",
-                        "og:image:height": "1540",
-                        "format-detection": "telephone=no"
-                    }
-                ]
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Labour Party publish update to its proposals for employment law ...",
-            "htmlTitle": "Labour Party publish update to its proposals for employment law ...",
-            "link": "https://www.nortonrosefulbright.com/en/knowledge/publications/f2e10e81/labour-party-publish-update-to-its-proposals-for-employment-law-what-new",
-            "displayLink": "www.nortonrosefulbright.com",
-            "snippet": "Voices at Work – Changes to trade union legislation. Equality at work; Rights at work; Conclusion. Zero hour workers. The Labour Party has confirmed in the Plan...",
-            "htmlSnippet": "Voices at <b>Work</b> – <b>Changes</b> to trade <b>union</b> legislation. Equality at <b>work</b>; Rights at <b>work</b>; Conclusion. Zero hour <b>workers</b>. The Labour Party has confirmed <b>in</b> the Plan...",
-            "formattedUrl": "https://www.nortonrosefulbright.com/.../publications/.../labour-party-publis...",
-            "htmlFormattedUrl": "https://www.nortonrosefulbright.com/.../<b>public</b>ations/.../labour-party-publis...",
+            "title": "Outdoor smoking ban at pubs being considered, says PM",
+            "htmlTitle": "<b>Outdoor smoking</b> ban at <b>pubs</b> being considered, says PM",
+            "link": "https://www.bbc.com/news/articles/cg79ym5mrzyo",
+            "displayLink": "www.bbc.com",
+            "snippet": "Aug 29, 2024 ... ... garden\". But the PM stressed the health impact in his message. Tobacco use is the UK's single biggest preventable cause of death, killing...",
+            "htmlSnippet": "Aug 29, 2024 <b>...</b> ... <b>garden</b>&quot;. But the PM stressed the <b>health impact</b> in his message. <b>Tobacco use</b> is the <b>UK's</b> single biggest preventable cause of death, killing...",
+            "formattedUrl": "https://www.bbc.com/news/articles/cg79ym5mrzyo",
+            "htmlFormattedUrl": "https://www.bbc.com/news/articles/cg79ym5mrzyo",
             "pagemap": {
                 "cse_thumbnail": [
                     {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ83xbvxFZUxbT7QeYBgdnDISEIdf4geyZQ_bgRC1BcoA5UO8LxmgoN0O_T&s",
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7KYoo0cppgTxYjQhHmdl8D1LJQSi-xf2zINdYRVp_xU9FjY5s2RneTaE&s",
                         "width": "300",
                         "height": "168"
                     }
                 ],
                 "metatags": [
                     {
-                        "og:image": "https://www.nortonrosefulbright.com/-/media/images/nrf/hero/employment-uk-election.jpg?revision=e04964e9-bad3-41c7-9f1e-7d23974f4ecf&revision=5250223852547387904",
-                        "og:type": "article",
-                        "og:title": "Labour Party publish update to its proposals for employment law: What’s new?",
-                        "dc.format": "text/html",
-                        "dc.date.created": "06/12/2024 08:44:32",
-                        "og:description": "On May 24 the Labour Party published an update to its proposals on employment law in “Labour’s Plan to Make Work Pay: Delivering A New Deal for Working People” (the Plan). Our review of the proposals included in the Green Paper which was initially published in 2021 can be found here. Should they win the election, the Labour Party has stated that it will introduce an Employment Bill within the first 100 days of being in power which will cover many of these issues.",
-                        "nrf-mac": "NRFPRDCD2",
-                        "referrer": "no-referrer-when-downgrade",
-                        "dc.source": "https://www.nortonrosefulbright.com/en/knowledge/publications/f2e10e81/labour-party-publish-update-to-its-proposals-for-employment-law-what-new",
-                        "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
-                        "dc.title": "Labour Party publish update to its proposals for employment law: What’s new?",
-                        "dc.date.modified": "06/21/2024 11:50:20",
-                        "dc.language": "en",
-                        "og:url": "https://www.nortonrosefulbright.com/en/knowledge/publications/f2e10e81/labour-party-publish-update-to-its-proposals-for-employment-law-what-new"
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://ichef.bbci.co.uk/news/1024/branded_news/7723/live/0497b8e0-6600-11ef-b43e-6916dcba5cbf.jpg",
+                        "twitter:title": "Outdoor smoking ban at pubs being considered, says PM",
+                        "twitter:card": "summary_large_image",
+                        "og:image:alt": "Stock photo shows a group of young people smoking and using mobile and laptop outside a cafe",
+                        "theme-color": "#ffffff",
+                        "og:title": "Outdoor smoking ban at pubs being considered, says PM",
+                        "og:description": "Health experts welcome plans but some pub owners and hospitality bosses warn of economic pain.",
+                        "version": "2.7.3+1",
+                        "twitter:image:src": "https://ichef.bbci.co.uk/news/1024/branded_news/7723/live/0497b8e0-6600-11ef-b43e-6916dcba5cbf.jpg",
+                        "next-head-count": "28",
+                        "twitter:image:alt": "Stock photo shows a group of young people smoking and using mobile and laptop outside a cafe",
+                        "viewport": "width=device-width",
+                        "twitter:description": "Health experts welcome plans but some pub owners and hospitality bosses warn of economic pain."
                     }
                 ],
                 "cse_image": [
                     {
-                        "src": "https://www.nortonrosefulbright.com/-/media/images/nrf/hero/employment-uk-election.jpg?revision=e04964e9-bad3-41c7-9f1e-7d23974f4ecf&revision=5250223852547387904"
+                        "src": "https://ichef.bbci.co.uk/news/1024/branded_news/7723/live/0497b8e0-6600-11ef-b43e-6916dcba5cbf.jpg"
                     }
                 ]
             }
         },
         {
             "kind": "customsearch#result",
-            "title": "There is an alternative: Economic policies and labour strategies ...",
-            "htmlTitle": "There is an alternative: <b>Economic</b> policies and labour strategies ...",
-            "link": "https://www.ilo.org/media/348996/download",
-            "displayLink": "www.ilo.org",
-            "snippet": "1 Government and the unions have failed to reach agreement on who is an essential worker. Page 22. The struggle against pension reform in France. Philippe Légé.",
-            "htmlSnippet": "1 <b>Government</b> and the <b>unions</b> have failed to reach agreement on who is an essential <b>worker</b>. Page 22. The struggle against pension <b>reform in</b> France. Philippe Légé.",
-            "formattedUrl": "https://www.ilo.org/media/348996/download",
-            "htmlFormattedUrl": "https://www.ilo.org/media/348996/download",
+            "title": "Outdoor smoking ban at pubs being considered, says PM - BBC News",
+            "htmlTitle": "<b>Outdoor smoking</b> ban at <b>pubs</b> being considered, says PM - BBC News",
+            "link": "https://www.bbc.co.uk/news/articles/cg79ym5mrzyo",
+            "displayLink": "www.bbc.co.uk",
+            "snippet": "Aug 29, 2024 ... ... garden\". But the PM stressed the health impact in his message. Tobacco use is the UK's single biggest preventable cause of death, killing...",
+            "htmlSnippet": "Aug 29, 2024 <b>...</b> ... <b>garden</b>&quot;. But the PM stressed the <b>health impact</b> in his message. <b>Tobacco use</b> is the <b>UK's</b> single biggest preventable cause of death, killing...",
+            "formattedUrl": "https://www.bbc.co.uk/news/articles/cg79ym5mrzyo",
+            "htmlFormattedUrl": "https://www.bbc.co.<b>uk</b>/news/articles/cg79ym5mrzyo",
             "pagemap": {
                 "cse_thumbnail": [
                     {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXltm6oCiXuIDU7Y6H00Deivu4AqbPiJ8_8DB5Q_yLJVRuKY0iIyA2Ts&s",
-                        "width": "183",
-                        "height": "275"
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7KYoo0cppgTxYjQhHmdl8D1LJQSi-xf2zINdYRVp_xU9FjY5s2RneTaE&s",
+                        "width": "300",
+                        "height": "168"
                     }
                 ],
                 "metatags": [
                     {
-                        "moddate": "D:20110708155748+02'00'",
-                        "creator": "QuarkXPress(R) 8.5",
-                        "xpressprivate": "%%DocumentCustomColors: (PANTONE 287 C) %%DocumentProcessColors: Cyan Magenta Yellow Black %%QRKLabCustomColor: .215 .542 .271 (PANTONE 287 C) %%RGBCustomColor: 0 .18 .554 (PANTONE 287 C) %%EndComments",
-                        "creationdate": "D:20110512151509Z",
-                        "producer": "QuarkXPress(R) 8.5",
-                        "title": "Layout 1"
+                        "og:image": "https://ichef.bbci.co.uk/news/1024/branded_news/7723/live/0497b8e0-6600-11ef-b43e-6916dcba5cbf.jpg",
+                        "theme-color": "#FFFFFF",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "BBC News",
+                        "msapplication-tileimage": "https://static.files.bbci.co.uk/core/website/assets/static/icons/windows-phone/news/windows-phone-icon-270x270.23502b4459eb7a6ab2ab.png",
+                        "og:description": "Health experts welcome plans but some pub owners and hospitality bosses warn of economic pain.",
+                        "twitter:creator": "@BBCNews",
+                        "twitter:image:alt": "Stock photo shows a group of young people smoking and using mobile and laptop outside a cafe",
+                        "twitter:site": "@BBCNews",
+                        "fb:admins": "100004154058350",
+                        "msapplication-tilecolor": "#bb1919",
+                        "og:image:alt": "Stock photo shows a group of young people smoking and using mobile and laptop outside a cafe",
+                        "og:type": "article",
+                        "article:section": "Health",
+                        "twitter:title": "Outdoor smoking ban at pubs being considered, says PM",
+                        "og:title": "Outdoor smoking ban at pubs being considered, says PM",
+                        "article:author": "https://www.facebook.com/bbcnews",
+                        "twitter:image:src": "https://ichef.bbci.co.uk/news/1024/branded_news/7723/live/0497b8e0-6600-11ef-b43e-6916dcba5cbf.jpg",
+                        "fb:app_id": "1609039196070050",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Health experts welcome plans but some pub owners and hospitality bosses warn of economic pain.",
+                        "og:locale": "en_GB",
+                        "mobile-web-app-capable": "yes",
+                        "og:url": "https://www.bbc.com/news/articles/cg79ym5mrzyo",
+                        "format-detection": "telephone=no"
                     }
                 ],
                 "cse_image": [
                     {
-                        "src": "x-raw-image:///b111c4fb75ffb441562f63d50fe998c7fb5f368b692b7817106d01080cc49d3a"
+                        "src": "https://ichef.bbci.co.uk/news/1024/branded_news/7723/live/0497b8e0-6600-11ef-b43e-6916dcba5cbf.jpg"
                     }
                 ]
-            },
-            "mime": "application/pdf",
-            "fileFormat": "PDF/Adobe Acrobat"
+            }
         },
         {
             "kind": "customsearch#result",
-            "title": "Brexit: understanding the socio-economic origins and consequences",
-            "htmlTitle": "Brexit: understanding the socio-<b>economic</b> origins and consequences",
-            "link": "https://academic.oup.com/ser/article/14/4/807/2896901",
-            "displayLink": "academic.oup.com",
-            "snippet": "Meanwhile, the political dynamics of the Brexit vote were also shaped by the fractured nature of UK business elites (Morgan), divisions between locals and...",
-            "htmlSnippet": "Meanwhile, the political dynamics <b>of</b> the Brexit <b>vote</b> were also shaped by the fractured nature <b>of UK</b> business elites (Morgan), divisions between locals and...",
-            "formattedUrl": "https://academic.oup.com/ser/article/14/4/807/2896901",
-            "htmlFormattedUrl": "https://academic.oup.com/ser/article/14/4/807/2896901",
+            "title": "Hospitality and health leaders clash on outdoor smoking plan",
+            "htmlTitle": "<b>Hospitality</b> and <b>health</b> leaders clash on <b>outdoor smoking plan</b>",
+            "link": "https://www.bbc.com/news/articles/cql3gy63rp3o",
+            "displayLink": "www.bbc.com",
+            "snippet": "Aug 29, 2024 ... Those in the hospitality sector worry the ban will further hurt businesses. The British Beer and Pub Association (BBPA), which represents 20,000 ...",
+            "htmlSnippet": "Aug 29, 2024 <b>...</b> Those in the <b>hospitality sector</b> worry the ban will further hurt businesses. The British Beer and <b>Pub</b> Association (BBPA), which represents 20,000 ...",
+            "formattedUrl": "https://www.bbc.com/news/articles/cql3gy63rp3o",
+            "htmlFormattedUrl": "https://www.bbc.com/news/articles/cql3gy63rp3o",
             "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpVdY74bxunkx6smsRi791d7brPiyNKyfn4bmVxeY_L0TjsTQ67Ddv7Ys&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
                 "metatags": [
                     {
-                        "msapplication-config": "//oup.silverchair-cdn.com/UI/app/img/v-638576256025097080/browserconfig.xml",
-                        "og:image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ser/Issue/14/4/0/m_soceco_14_4cover.jpeg?Expires=1786969314&Signature=OOi7GUZRH38PvnpYoWK00MQE7g4eMJSKTVP24D7MyU5KrqKPxiFY068pb9LfjZpDPYmrm6db7KzsfLW5zwLBbz1RJhImy1EPpIOvwJiFtHe3bt27IPNiPXnf9wzACpP61dRvRMBTsj7Yt0w97LNE-1PwM~52yV6tTu7dZUYusELlISUVhWGL2arVv2GmlpmNHs8A02NrkAHihqheac2v7Bdl-tBBFzmqfTidE~o8Fd1Ig47UpSb7yGedDxZx1SqDdP5mdkPpPGfxay4DzffVBL8JadzIdTe3sY-DuJ15OAeDnrqfw1~O-lJ8uu1A2r8FvCgnF0XhW6PtAtyFnZyfjw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-                        "citation_publication_date": "2016/10/01",
-                        "theme-color": "#002f65",
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://ichef.bbci.co.uk/news/1024/branded_news/8255/live/bfac5d70-663c-11ef-a881-492a52bb19d5.jpg",
+                        "theme-color": "#ffffff",
                         "twitter:card": "summary_large_image",
-                        "citation_title": "Brexit: understanding the socio-economic origins and consequences",
-                        "og:site_name": "OUP Academic",
-                        "citation_reference": "citation_author=Ashcroft  M.; citation_author=Culwick  K.; citation_publisher=Biteback Publishing, London;  citation_title=Well You Did Ask… Why the UK Voted to Leave the EU;  citation_year=2016;",
-                        "citation_publisher": "Oxford Academic",
-                        "citation_journal_title": "Socio-Economic Review",
-                        "og:description": "The unprecedented geopolitical shift resulting from Brexit reflects deep socio-economic fault lines within and beyond the UK. In many ways foreshadowing th",
-                        "og:image:secure_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ser/Issue/14/4/0/m_soceco_14_4cover.jpeg?Expires=1786969314&Signature=OOi7GUZRH38PvnpYoWK00MQE7g4eMJSKTVP24D7MyU5KrqKPxiFY068pb9LfjZpDPYmrm6db7KzsfLW5zwLBbz1RJhImy1EPpIOvwJiFtHe3bt27IPNiPXnf9wzACpP61dRvRMBTsj7Yt0w97LNE-1PwM~52yV6tTu7dZUYusELlISUVhWGL2arVv2GmlpmNHs8A02NrkAHihqheac2v7Bdl-tBBFzmqfTidE~o8Fd1Ig47UpSb7yGedDxZx1SqDdP5mdkPpPGfxay4DzffVBL8JadzIdTe3sY-DuJ15OAeDnrqfw1~O-lJ8uu1A2r8FvCgnF0XhW6PtAtyFnZyfjw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-                        "citation_issn": "1475-1461",
-                        "citation_lastpage": "854",
+                        "og:site_name": "BBC News",
+                        "msapplication-tileimage": "https://static.files.bbci.co.uk/core/website/assets/static/icons/windows-phone/news/windows-phone-icon-270x270.23502b4459eb7a6ab2ab.png",
+                        "og:description": "The prime minister says his government is looking at tougher rules to reduce the burden on the NHS.",
+                        "twitter:creator": "@BBCNews",
+                        "twitter:image:alt": "Group of many businessmen people standing outside in England at the Shipwrights Arms pub tavern bar drinking beer from cups",
+                        "twitter:site": "@BBCNews",
+                        "fb:admins": "100004154058350",
+                        "msapplication-tilecolor": "#bb1919",
+                        "og:image:alt": "Group of many businessmen people standing outside in England at the Shipwrights Arms pub tavern bar drinking beer from cups",
                         "og:type": "article",
-                        "og:image:alt": "Issue Cover",
-                        "og:image:url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/ser/Issue/14/4/0/m_soceco_14_4cover.jpeg?Expires=1786969314&Signature=OOi7GUZRH38PvnpYoWK00MQE7g4eMJSKTVP24D7MyU5KrqKPxiFY068pb9LfjZpDPYmrm6db7KzsfLW5zwLBbz1RJhImy1EPpIOvwJiFtHe3bt27IPNiPXnf9wzACpP61dRvRMBTsj7Yt0w97LNE-1PwM~52yV6tTu7dZUYusELlISUVhWGL2arVv2GmlpmNHs8A02NrkAHihqheac2v7Bdl-tBBFzmqfTidE~o8Fd1Ig47UpSb7yGedDxZx1SqDdP5mdkPpPGfxay4DzffVBL8JadzIdTe3sY-DuJ15OAeDnrqfw1~O-lJ8uu1A2r8FvCgnF0XhW6PtAtyFnZyfjw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-                        "citation_journal_abbrev": "Socioecon Rev",
-                        "og:title": "Brexit: understanding the socio-economic origins and consequences",
-                        "citation_author": "O'Reilly, Jacqueline",
-                        "citation_issue": "4",
-                        "citation_firstpage": "807",
-                        "viewport": "width=device-width, initial-scale=1, maximum-scale=10",
-                        "citation_doi": "10.1093/ser/mww043",
-                        "citation_volume": "14",
-                        "og:url": "https://dx.doi.org/10.1093/ser/mww043",
+                        "article:section": "Health",
+                        "twitter:title": "Smoking ban: Hospitality and health leaders clash on outdoor smoking plan",
+                        "og:title": "Smoking ban: Hospitality and health leaders clash on outdoor smoking plan",
+                        "article:author": "https://www.facebook.com/bbcnews",
+                        "twitter:image:src": "https://ichef.bbci.co.uk/news/1024/branded_news/8255/live/bfac5d70-663c-11ef-a881-492a52bb19d5.jpg",
+                        "fb:app_id": "1609039196070050",
+                        "viewport": "width=device-width",
+                        "twitter:description": "The prime minister says his government is looking at tougher rules to reduce the burden on the NHS.",
+                        "og:locale": "en_GB",
+                        "mobile-web-app-capable": "yes",
+                        "og:url": "https://www.bbc.com/news/articles/cql3gy63rp3o",
                         "format-detection": "telephone=no"
                     }
-                ]}
-
-                }]}
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://ichef.bbci.co.uk/news/1024/branded_news/8255/live/bfac5d70-663c-11ef-a881-492a52bb19d5.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Starmer faces pushback from pubs over 'bonkers' outdoor smoking ...",
+            "htmlTitle": "Starmer faces pushback from <b>pubs</b> over 'bonkers' <b>outdoor smoking</b> ...",
+            "link": "https://www.theguardian.com/society/article/2024/aug/29/starmer-faces-pushback-from-pubs-over-bonkers-outdoor-smoking-curbs",
+            "displayLink": "www.theguardian.com",
+            "snippet": "Aug 29, 2024 ... Reform UK leader Nigel Farage has lashed out against Keir Starmer's plans to implement a ban on smoking outside pubs and other venues.",
+            "htmlSnippet": "Aug 29, 2024 <b>...</b> Reform <b>UK</b> leader Nigel Farage has lashed out against Keir Starmer&#39;s <b>plans</b> to implement a ban on <b>smoking outside pubs</b> and other venues.",
+            "formattedUrl": "https://www.theguardian.com/society/article/2024/aug/29/starmer-faces-pushback-from-pubs-over-bonkers-outdoor-smoking-curbs",
+            "htmlFormattedUrl": "https://www.theguardian.com/society/article/2024/aug/29/starmer-faces-pushback-from-<b>pubs</b>-over-bonkers-<b>outdoor-smoking</b>-curbs",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdo_skC-GSjkUVXjAIpw2swo62qiJ9a6aZsBbF1TnvmGs3CQ0gHnb0MNg&s",
+                        "width": "310",
+                        "height": "163"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://i.guim.co.uk/img/media/942d22f47332de559b07bd4a1e3a2e2eca548e49/1442_1190_6177_3707/master/6177.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d87aef45730060727fb442ca20084eba",
+                        "theme-color": "#052962",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "the Guardian",
+                        "msapplication-tileimage": "https://static.files.bbci.co.uk/core/website/assets/static/icons/windows-phone/news/windows-phone-icon-270x270.23502b4459eb7a6ab2ab.png",
+                        "og:description": "Health experts welcome plans but some pub owners and hospitality bosses warn of economic pain.",
+                        "twitter:creator": "@peterwalker99",
+                        "twitter:image:alt": "Group of many businessmen people standing outside in England at the Shipwrights Arms pub tavern bar drinking beer from cups",
+                        "twitter:site": "@guardian"
+                    }
+                ]
+            }
+        }
+    ]
+}
