@@ -13,19 +13,28 @@ class GoogleNewsSearch:
         self.API_KEY = API_KEY
         self.SEARCH_ENGINE_ID = SEARCH_ENGINE_ID
 
-    def set_query(self, query):
-        self.query = "News articles for " + query
+    def set_query(self, query, start):
+        # print("start is", start)
+        self.query = query
         # turn query into a proper url string
         query = query.replace(' ', '+')
         query = query.replace('"', '')
-        self.search_url = "https://www.googleapis.com/customsearch/v1?key="+self.API_KEY+"&cx="+self.SEARCH_ENGINE_ID+"&q="+query
-        print("URL IS NOW", self.search_url) 
-        print("Query is now", self.query)
+        self.search_url = "https://www.googleapis.com/customsearch/v1?key="+self.API_KEY+"&cx="+self.SEARCH_ENGINE_ID+"&cr=countryUK"+"&orTerms=news"+"&start="+str(start)+"&q="+query
+        # print("URL IS NOW", self.search_url) 
+        # print("Query is now", self.query)
 
-    def get_search_results(self):
-        response = requests.get(self.search_url)
-        self.search_results = response.json()
-        return self.search_results
+    def get_search_results(self, limit):
+        i = 0
+        results = []
+        while i <= limit:
+            self.set_query(self.query, i)
+            response = requests.get(self.search_url)
+            self.search_results = response.json()
+            for item in self.search_results['items']:
+                results.append(item)
+            i += 10
+        return results
+        
 
     def get_articles(self):
         articles = []
