@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from controllers.AlternativeNewsArtcles import AlternativeNewsArticles
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 app = FastAPI()
 alternative_news = AlternativeNewsArticles() 
 
@@ -18,5 +21,14 @@ def read_item(request_body: RequestBody):
     article = request_body.article
     # print("Article is", article)  
     result = alternative_news.get_alternative_news_articles(article)
+    # print("Result is", result)  
+    return {"result": result}
+
+@app.post("/news/url/")
+def read_item(request_body: RequestBody):
+    # print(request_body)
+    article = request_body.article
+    # print("Article is", article)  
+    result = alternative_news.get_alternative_news_articles_by_url(article)
     # print("Result is", result)  
     return {"result": result}

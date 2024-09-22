@@ -22,10 +22,11 @@ from controllers.GoogleNewsSearch import GoogleNewsSearch
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+import os
 
 
 class Utils:
-    PERPLEXITY_API_KEY = "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"
+    PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
     PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
 
     def __init__(self):
