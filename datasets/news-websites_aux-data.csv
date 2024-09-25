@@ -1,16 +1,16 @@
 ﻿website,RSS URL,visitors unique monthly,ownership,political bias,party support GE 2019,journalism style
-BBC,http://feeds.bbci.co.uk/news/rss.xml,38.3,state-owned,left-center,none stated,quality
-Sun,https://www.thesundaily.my/rss/home,28.5,News Corp,right,conservative,tabloid
-Mirror,https://www.mirror.co.uk/news/?service=rss,25.6,Reach plc,left-center,labour,tabloid
-Daily Mail,https://www.dailymail.co.uk/articles.rss,23.3,DMGT,right,conservative,tabloid
-Independent,https://www.independent.co.uk/news/uk/rss,21.4,various,left-center,none,quality
-Guardian,https://www.theguardian.com/uk/rss,21,GMG,left-center,labour,quality
-Manchester Evening News,https://www.manchestereveningnews.co.uk/news/?service=rss,19.5,Reach plc,left-center,unknown,tabloid
-Sky News,https://feeds.skynews.com/feeds/rss/home.xml,17.9,Comcast,center,none stated,quality
-Metro,https://metro.co.uk/feed/,16.8,DMGT,left-center,none,tabloid
-Telegraph,https://www.telegraph.co.uk/rss.xml,16.4,Barclay brothers,right,conservative,quality
-Daily Express,https://www.express.co.uk/posts/rss/77/news,16.4,Reach plc,right,conservative,tabloid
-Times,https://www.times-series.co.uk/news/rss/,13.8,News Corp,right-center,conservative,quality
-Liverpool Echo,https://www.liverpoolecho.co.uk/?service=rss,12.4,Reach plc,left-center,labour,tabloid
-Birmingham Live,https://www.birminghammail.co.uk/?service=rss,12.2,Reach plc,left-center,unknown,tabloid
-Evening Standard,https://www.standard.co.uk/rss,10.5,various,right-center,conservative,tabloid
+BBC,http://feeds.bbci.co.uk,38.30,state-owned,left-center,none stated,quality
+Sun,https://www.thesun.co.uk/,28.50,News Corp,right,conservative,tabloid
+Mirror,https://www.mirror.co.uk/news,25.60,Reach plc,left-center,labour,tabloid
+Daily Mail,https://www.dailymail.co.uk,23.30,DMGT,right,conservative,tabloid
+Independent,https://www.independent.co.uk/,21.40,various,left-center,none,quality
+Guardian,https://www.theguardian.com/uk/,21,GMG,left-center,labour,quality
+Manchester Evening News,https://www.manchestereveningnews.co.uk,19.50,Reach plc,left-center,unknown,tabloid
+Sky News,https://feeds.skynews.com/,17.90,Comcast,center,none stated,quality
+Metro,https://metro.co.uk,16.80,DMGT,left-center,none,tabloid
+Telegraph,https://www.telegraph.co.uk,16.40,Barclay brothers,right,conservative,quality
+Daily Express,https://www.express.co.uk,16.40,Reach plc,right,conservative,tabloid
+Times,https://www.times-series.co.uk,13.80,News Corp,right-center,conservative,quality
+Liverpool Echo,https://www.liverpoolecho.co.uk,12.40,Reach plc,left-center,labour,tabloid
+Birmingham Live,https://www.birminghammail.co.uk,12.20,Reach plc,left-center,unknown,tabloid
+Evening Standard,https://www.standard.co.uk,10.50,various,right-center,conservative,tabloid

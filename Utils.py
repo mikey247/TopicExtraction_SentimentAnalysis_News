@@ -80,12 +80,12 @@ class Utils:
         # Join topic words into a comma-separated string
         comma_separated_topics = ", ".join(topics)
         
-        prompt = f"Given these topic words: {comma_separated_topics}. In 5 words or less and ONE SENTENCE, Generate a concise, relevant search term or phrase that captures the essence of this topic. The search term should be suitable for finding articles related to this topic online."
+        prompt = f"Given these topic words: {comma_separated_topics}. In 5 words or less and ONE SENTENCE, Generate a concise, relevant search term or phrase that captures the essence of this topic. The search term should be suitable for finding articles related to this topic online. Do not add unnecessary text as it may corrupt search results"
         
         data = {
             "model": "mistral-7b-instruct", 
             "messages": [
-                {"role": "system", "content": "You are a helpful assistant that generates a CONCISE and relevant search term based on given topic words."},
+                {"role": "system", "content": "You are a helpful, concise assistant that generates a CONCISE and relevant search term based on given topic words, you does not add unnecessary text as it may corrupt search results."},
                 {"role": "user", "content": prompt}
             ]
         }
