@@ -9,10 +9,18 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins
-    allow_credentials=True,  # Allow credentials like cookies, authorization headers, etc.
+    allow_origins=["http://localhost:5173/","https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/"],  # Allow all origins
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
     allow_headers=["*"],  # Allow all headers
+)
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 alternative_news = AlternativeNewsArticles() 
@@ -41,5 +49,6 @@ def read_item(request_body: RequestBody):
     article = request_body.url
     # print("Article is", article)  
     result = alternative_news.get_alternative_news_articles_by_url(article)
+    # print(alternative_news.process_results(result))
     # print("Result is", result)  
     return {"result": result}

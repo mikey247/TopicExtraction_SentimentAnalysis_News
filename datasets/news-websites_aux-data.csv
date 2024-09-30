@@ -1,5 +1,5 @@
-﻿website,RSS URL,visitors unique monthly,ownership,political bias,party support GE 2019,journalism style
-BBC,http://feeds.bbci.co.uk,38.30,state-owned,left-center,none stated,quality
+﻿website,URL,visitors unique monthly,ownership,political bias,party support GE 2019,journalism style
+BBC,http://bbc.co.uk,38.30,state-owned,left-center,none stated,quality
 Sun,https://www.thesun.co.uk/,28.50,News Corp,right,conservative,tabloid
 Mirror,https://www.mirror.co.uk/news,25.60,Reach plc,left-center,labour,tabloid
 Daily Mail,https://www.dailymail.co.uk,23.30,DMGT,right,conservative,tabloid
@@ -14,3 +14,4 @@ Times,https://www.times-series.co.uk,13.80,News Corp,right-center,conservative,q
 Liverpool Echo,https://www.liverpoolecho.co.uk,12.40,Reach plc,left-center,labour,tabloid
 Birmingham Live,https://www.birminghammail.co.uk,12.20,Reach plc,left-center,unknown,tabloid
 Evening Standard,https://www.standard.co.uk,10.50,various,right-center,conservative,tabloid
+Yahoo News,uk.news.yahoo.com,9.90,Verizon,left-center,none stated,quality

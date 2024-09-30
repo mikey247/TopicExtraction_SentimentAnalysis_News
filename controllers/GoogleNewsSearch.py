@@ -19,7 +19,8 @@ class GoogleNewsSearch:
         # turn query into a proper url string
         query = query.replace(' ', '+')
         query = query.replace('"', '')
-        self.search_url = "https://www.googleapis.com/customsearch/v1?key="+self.API_KEY+"&cx="+self.SEARCH_ENGINE_ID+"&cr=countryUK"+"&orTerms=news"+"&dateRestrict=m1"+"&start="+str(start)+"&q="+query
+        self.search_url = "https://www.googleapis.com/customsearch/v1?key="+self.API_KEY+"&cx="+self.SEARCH_ENGINE_ID+"&orTerms=news"+"&dateRestrict=m1"+"&start="+str(start)+"&q="+query
+        # self.search_url = "https://www.googleapis.com/customsearch/v1?key="+self.API_KEY+"&cx="+self.SEARCH_ENGINE_ID+"&start="+str(start)+"&q="+query
         # print("URL IS NOW", self.search_url) 
         # print("Query is now", self.query)
 

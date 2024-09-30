@@ -56,8 +56,8 @@ class LDATopicExtraction:
             topic_words = re.findall(r'"([^"]*)"', topic)
             topics.append(topic_words)
 
-        # print("Topics as arrays of words:")
-        # print(topics)
+        print("Topics as arrays of words:")
+        print(topics)
 
         final=[]
 
