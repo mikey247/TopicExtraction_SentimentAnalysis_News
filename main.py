@@ -7,6 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 app = FastAPI()
 
+origins = [ "http://localhost:5173", "http://localhost:3000", "http://localhost:3000/", "http://localhost:5173/", "https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173/","https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"],  # Allow all origins
