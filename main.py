@@ -9,19 +9,19 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173/","https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/"],  # Allow all origins
+    allow_origins=["http://localhost:5173/","https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"],  # Allow all origins
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
     allow_headers=["*"],  # Allow all headers
 )
 
-origins = ["*"]
+# origins = ["*"]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=origins,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 alternative_news = AlternativeNewsArticles() 
 
