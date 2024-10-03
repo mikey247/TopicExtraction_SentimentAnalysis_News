@@ -20,6 +20,7 @@ from Utils import Utils
 
 # Download necessary NLTK data
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
