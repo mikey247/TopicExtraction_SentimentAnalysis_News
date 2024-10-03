@@ -38,8 +38,9 @@ def read_root():
 def read_item(request_body: RequestBody):
     # print(request_body)
     article = request_body.article
+    source = request_body.source
     # print("Article is", article)  
-    result = alternative_news.get_alternative_news_articles(article)
+    result = alternative_news.get_alternative_news_articles(article, source)
     # print("Result is", result)  
     return {"result": result}
 
@@ -47,8 +48,9 @@ def read_item(request_body: RequestBody):
 def read_item(request_body: RequestBody):
     # print(request_body)
     article = request_body.url
+    source = request_body.source
     # print("Article is", article)  
-    result = alternative_news.get_alternative_news_articles_by_url(article)
+    result = alternative_news.get_alternative_news_articles_by_url(article, source)
     # print(alternative_news.process_results(result))
     # print("Result is", result)  
     return {"result": result}

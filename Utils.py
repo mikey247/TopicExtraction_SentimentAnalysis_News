@@ -85,7 +85,7 @@ class Utils:
         data = {
             "model": "mistral-7b-instruct", 
             "messages": [
-                {"role": "system", "content": "You are a helpful, concise assistant that generates a CONCISE and relevant search term based on given topic words, you does not add unnecessary text and bracketed information as it may corrupt search results. Provide ONE sentence search term that captures the essence of the topic. The sentence must be headline worthy, emphasizing the most important aspects of the topic and avoiding added text that skew results, this is very important, do not mention a news or media company or term just the topic of interest remove all additives!!!!."},
+                {"role": "system", "content": "You are a helpful, concise assistant that generates a CONCISE and relevant search term based on given topic words, you does not add unnecessary text and bracketed information as it may corrupt search results. Provide ONE sentence search term that captures the essence of the topic. The sentence must be headline worthy, start with -UK news articles-, emphasizing the most important aspects of the topic and avoiding added text that skew results, this is very important, do not mention a news or media company or term just the topic of interest remove all additives!!!!."},
                 {"role": "user", "content": prompt}
             ]
         }

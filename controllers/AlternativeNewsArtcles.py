@@ -26,22 +26,23 @@ class AlternativeNewsArticles:
         # print("AlternativeNewsArticles controller initialised")
         pass
 
-    def get_alternative_news_articles(self, query):
+    def get_alternative_news_articles(self, query, source):
         topics = lda.extract_topics(query)
         print("Topics are:", topics)
         search_term = utils.generate_perplexity_search_terms(topics)
+        # search_term = "News like"+source+" on"+search_term
         print("Search term is:", search_term)
         googleNewsSearch.set_query(search_term, 1)
         search_results = googleNewsSearch.get_search_results(80) 
         return search_results
     
-    def get_alternative_news_articles_by_url(self, url):
+    def get_alternative_news_articles_by_url(self, url, source):
         text = utils.get_text_from_url(url)
         topics = lda.extract_topics(text)
         print("Topics are:", topics)
         search_term = utils.generate_perplexity_search_terms(topics)
         print("Search term is:", search_term)
-        googleNewsSearch.set_query(search_term, 1)
+        googleNewsSearch.set_query("News like"+source+" on"+search_term, 1)
         search_results = googleNewsSearch.get_search_results(80)
         # print("Search results are:", search_results)
         return search_results
