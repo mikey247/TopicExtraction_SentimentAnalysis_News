@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 app = FastAPI()
 
-origins = [ "http://topicextraction-sentimentanalysis-news.onrender.com/","https://topicextraction-sentimentanalysis-news.onrender.com/","http://localhost:5173", "http://localhost:3000", "http://localhost:3000/", "http://localhost:5173/", "https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"]
+origins = [ "http://topicextraction-sentimentanalysis-news.onrender.com/news/url","https://topicextraction-sentimentanalysis-news.onrender.com/news/url","http://localhost:5173", "http://localhost:3000", "http://localhost:3000/", "http://localhost:5173/", "https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"]
 
 app.add_middleware(
     CORSMiddleware,
@@ -16,15 +16,6 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["X-Requested-With", "Content-Type"],
 )
-
-# origins = ["*"]
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=origins,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
 
 alternative_news = AlternativeNewsArticles() 
 
