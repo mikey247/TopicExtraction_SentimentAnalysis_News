@@ -42,7 +42,7 @@ class AlternativeNewsArticles:
         print("Topics are:", topics)
         search_term = utils.generate_perplexity_search_terms(topics)
         print("Search term is:", search_term)
-        googleNewsSearch.set_query("News like"+source+" on"+search_term, 1)
+        googleNewsSearch.set_query(search_term, 1)
         search_results = googleNewsSearch.get_search_results(80)
         # print("Search results are:", search_results)
         return search_results

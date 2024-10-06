@@ -39,6 +39,8 @@ class GoogleNewsSearch:
                 # Try to parse JSON response
                 self.search_results = response.json()
 
+                # print("Search results:", self.search_results)
+
                 # Check if 'items' exists in the JSON response
                 if 'items' not in self.search_results:
                     return {
