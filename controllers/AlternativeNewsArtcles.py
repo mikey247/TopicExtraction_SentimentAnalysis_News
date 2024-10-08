@@ -2,11 +2,13 @@
 from Utils import Utils
 from controllers.LDATopicExtraction import LDATopicExtraction
 from controllers.GoogleNewsSearch import GoogleNewsSearch
+from controllers.SentimentAnalysis import SentimentAnalysis
 import os
 import pandas as pd
 
 utils = Utils()
 lda = LDATopicExtraction()
+sentimentAnalysis = SentimentAnalysis()
 API_KEY = os.getenv("API_KEY")
 SEARCH_ENGINE_ID = os.getenv("SEARCH_ENGINE_ID")
 # print("API_KEY is", API_KEY)
@@ -48,12 +50,9 @@ class AlternativeNewsArticles:
         return search_results
     
     def process_results(self, search_results):
-        sources = news_websites.tolist()
-        final = []
-        # print("Search results are:", search_results)     
-        for result in search_results['results']:
-            for source in sources:
-                print("Source is", source)
-                print("Display link is", result['displayLink'])
-                # final.append(result)
-                   
+        print("Processing results", search_results)
+        for result in search_results:
+            # print("Result is:", result)
+            sentimentAnalysis.classify_article(result)
+            # result['sentiment'] = sentiment
+  

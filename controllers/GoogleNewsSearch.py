@@ -3,6 +3,7 @@ import re
 import pandas as pd
 
 
+
 class GoogleNewsSearch:
     def __init__(self, API_KEY, SEARCH_ENGINE_ID):
         self.query = None
@@ -61,7 +62,7 @@ class GoogleNewsSearch:
                 i += 10
             
             # Return only the results up to the limit, even if we fetched more
-            return {"results": results, "status_code": 200}
+            return results
 
         # Catch specific exceptions and handle them
         except requests.exceptions.RequestException as e:

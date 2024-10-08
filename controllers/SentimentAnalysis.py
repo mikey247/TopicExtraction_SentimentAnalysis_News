@@ -36,7 +36,8 @@ class SentimentAnalysis:
         return process.extractOne(source, news_bias_keys, score_cutoff=80)
 
     def classify_article(self, result):
-        url = result.get('link')
+        url = result['link']
+        print("URL is", url)
         source = self.extract_source(url)
         
         # Try to find a close match in our news_bias dictionary

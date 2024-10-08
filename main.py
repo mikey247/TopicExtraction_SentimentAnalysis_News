@@ -7,7 +7,13 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 app = FastAPI()
 
-origins = [ "http://topicextraction-sentimentanalysis-news.onrender.com/news/url","https://topicextraction-sentimentanalysis-news.onrender.com/news/url","http://localhost:5173", "http://localhost:3000", "http://localhost:3000/", "http://localhost:5173/", "https://perspectify-rho.vercel.app", "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"]
+origins = [
+    "http://topicextraction-sentimentanalysis-news.onrender.com/news/url",
+    "https://topicextraction-sentimentanalysis-news.onrender.com/news/url",
+    "http://localhost:5173", "http://localhost:3000", "http://localhost:3000/",
+    "http://localhost:5173/", "https://perspectify-rho.vercel.app",
+    "http://perspectify-rho.vercel.app/", "https://perspectify-rho.vercel.app/"
+]
 
 app.add_middleware(
     CORSMiddleware,
@@ -30,21 +36,16 @@ def read_root():
 
 @app.post("/news/")
 def read_item(request_body: RequestBody):
-    # print(request_body)
     article = request_body.article
     source = request_body.source
-    # print("Article is", article)  
     result = alternative_news.get_alternative_news_articles(article, source)
-    # print("Result is", result)  
+    alternative_news.process_results(result)
     return {"result": result}
 
 @app.post("/news/url/")
 def read_item(request_body: RequestBody):
-    # print(request_body)
     article = request_body.url
     source = request_body.source
-    # print("Article is", article)  
     result = alternative_news.get_alternative_news_articles_by_url(article, source)
-    # print(alternative_news.process_results(result))
-    # print("Result is", result)  
+    alternative_news.process_results(result)
     return {"result": result}
