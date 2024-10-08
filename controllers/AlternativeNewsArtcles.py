@@ -50,7 +50,7 @@ class AlternativeNewsArticles:
         return search_results
     
     def process_results(self, search_results):
-        print("Processing results", search_results)
+        # print("Processing results", search_results)
         for result in search_results:
             # print("Result is:", result)
             sentimentAnalysis.classify_article(result)
