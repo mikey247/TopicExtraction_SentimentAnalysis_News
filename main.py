@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from controllers.AlternativeNewsArtcles import AlternativeNewsArticles
+from controllers.SentimentAnalysis import SentimentAnalysis
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -24,6 +25,7 @@ app.add_middleware(
 )
 
 alternative_news = AlternativeNewsArticles() 
+sentiment_analysis = SentimentAnalysis()
 
 class RequestBody(BaseModel):
     article: str
@@ -40,7 +42,7 @@ def read_item(request_body: RequestBody):
     source = request_body.source
     result = alternative_news.get_alternative_news_articles(article, source)
     alternative_news.process_results(result)
-    return {"result": result}
+    return {"result": result, "source": source, "source_bias":sentiment_analysis.get_source_bias(source)}
 
 @app.post("/news/url/")
 def read_item(request_body: RequestBody):
@@ -48,4 +50,4 @@ def read_item(request_body: RequestBody):
     source = request_body.source
     result = alternative_news.get_alternative_news_articles_by_url(article, source)
     alternative_news.process_results(result)
-    return {"result": result}
+    return {"result": result, "source": source, "source_bias":sentiment_analysis.get_source_bias(source)}

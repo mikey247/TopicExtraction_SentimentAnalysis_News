@@ -3,6 +3,7 @@ from Utils import Utils
 from controllers.LDATopicExtraction import LDATopicExtraction
 from controllers.GoogleNewsSearch import GoogleNewsSearch
 from controllers.SentimentAnalysis import SentimentAnalysis
+from controllers.SerpAPISearch import SerpAPISearch
 import os
 import pandas as pd
 
@@ -11,10 +12,13 @@ lda = LDATopicExtraction()
 sentimentAnalysis = SentimentAnalysis()
 API_KEY = os.getenv("API_KEY")
 SEARCH_ENGINE_ID = os.getenv("SEARCH_ENGINE_ID")
+SERP_API_KEY = os.getenv("SERP_API_KEY")
 # print("API_KEY is", API_KEY)
 # print("SEARCH_ENGINE_ID is", SEARCH_ENGINE_ID)
 
 googleNewsSearch = GoogleNewsSearch(API_KEY, SEARCH_ENGINE_ID)
+
+serpiAPISearch = SerpAPISearch(SERP_API_KEY)
 
 data = pd.read_csv("datasets/news-websites_aux-data.csv")
 news_websites = data['URL']
@@ -34,8 +38,8 @@ class AlternativeNewsArticles:
         search_term = utils.generate_perplexity_search_terms(topics)
         # search_term = "News like"+source+" on"+search_term
         print("Search term is:", search_term)
-        googleNewsSearch.set_query(search_term, 1)
-        search_results = googleNewsSearch.get_search_results(80) 
+        # googleNewsSearch.set_query(search_term, 1)
+        search_results = serpiAPISearch.search(search_term)
         return search_results
     
     def get_alternative_news_articles_by_url(self, url, source):
@@ -44,9 +48,11 @@ class AlternativeNewsArticles:
         print("Topics are:", topics)
         search_term = utils.generate_perplexity_search_terms(topics)
         print("Search term is:", search_term)
-        googleNewsSearch.set_query(search_term, 1)
-        search_results = googleNewsSearch.get_search_results(80)
+
+        # googleNewsSearch.set_query(search_term, 1)
+        # search_results = googleNewsSearch.get_search_results(80)
         # print("Search results are:", search_results)
+        search_results = serpiAPISearch.search(search_term)
         return search_results
     
     def process_results(self, search_results):

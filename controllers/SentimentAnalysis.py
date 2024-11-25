@@ -45,6 +45,7 @@ class SentimentAnalysis:
         
         if best_match:
             bias = self.news_bias[best_match[0]]
+            # print("Source is", source, "Bias is", bias)
             result['bias'] = bias
             return bias
         
@@ -53,5 +54,19 @@ class SentimentAnalysis:
         # for key in self.news_bias:
         #     if key.lower() in snippet:
         #         return self.news_bias[key]
-        
+        # print("Source is uknown")
+        result['bias'] = "Unknown"
         return "Unknown"
+    
+    def get_source_bias(self, source):
+        bias=""
+        # bias = sentimentAnalysis.classify_article({"link":"bbc.com"})
+        # Try to find a close match in our news_bias dictionary
+        best_match = self.get_best_match(source, list(self.news_bias.keys()))
+                
+        if best_match:
+            bias = self.news_bias[best_match[0]]
+                    # print("Source is", source, "Bias is", bias)
+
+        # print(bias)
+        return bias
