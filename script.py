@@ -166,7 +166,6 @@ print(bias)
 #   "num": "50",
 # #   "start": "10",
 #   "safe": "active",
-#   "api_key": "b384ab6d7d7b94265c42e70a52ae696fda7a6df08b818d3d00c73699ab4d746b"
 # }
 
 # search = GoogleSearch(params)
